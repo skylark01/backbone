@@ -3,5 +3,7 @@ node_js:
   - "0.8"
 notifications:
   email: false
+install:
+  - sudo apt-get install language-pack-en
 after_success:
   - rm -rf shippable/
