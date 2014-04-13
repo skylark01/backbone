@@ -4,6 +4,6 @@ node_js:
 notifications:
   email: false
 install:
-  - sudo apt-get install language-pack-en
+  - env
 after_success:
   - rm -rf shippable/
