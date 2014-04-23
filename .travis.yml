@@ -3,5 +3,8 @@ node_js:
   - "0.8"
 notifications:
   email: ragesh@rageshkrishna.in
+branches:
+  only:
+    - master
 after_success:
   - rm -rf shippable/
